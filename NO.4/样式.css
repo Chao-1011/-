@@ -1,0 +1,24 @@
+    .block {
+        width: 110px;        
+        height: 110px;        
+        background-color: #4CAF50; 
+        border: 2px solid #333; 
+        margin: 10px;         
+        display: inline-block;            
+    } 
+    .egg {
+        width: 80px;
+        height: 100px;
+        margin: 10px;
+        display: inline-block;
+        animation: colorChange 2s infinite;
+        border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    }
+    @keyframes colorChange {
+        0% { background-color: #ff1e00; }
+        20% { background-color: #26ff00; }
+        40% { background-color: #2600ff; }
+        60% { background-color: #e1ff00; }
+        80% { background-color: rgb(255, 0, 231); }
+        100% { background-color: #00e1ff; }
+    }
